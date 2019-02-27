@@ -1,5 +1,4 @@
 import itertools
-import numpy as np
 import pandas as pd
 
 df = pd.DataFrame(list(itertools.permutations([1,1,0],3))) #change the index you want
